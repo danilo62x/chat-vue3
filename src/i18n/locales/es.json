@@ -1,0 +1,633 @@
+{
+  "brand": "Elo",
+  "common": {
+    "search": "Buscar",
+    "noResults": "Sin resultados",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "back": "Volver",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "edit": "Editar",
+    "remove": "Eliminar",
+    "add": "Añadir",
+    "all": "Todos",
+    "theme": "Tema",
+    "loading": "Cargando",
+    "actions": "Acciones",
+    "status": "Estado",
+    "viewAll": "Ver todo",
+    "optional": "opcional"
+  },
+  "nav": {
+    "features": "Funciones",
+    "pricing": "Precios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "login": "Entrar",
+    "register": "Crear cuenta",
+    "openApp": "Abrir Elo"
+  },
+  "appNav": {
+    "messagesSection": "Mensajes",
+    "teamSection": "Equipo",
+    "settingsSection": "Cuenta",
+    "conversations": "Conversaciones",
+    "threads": "Hilos",
+    "search": "Búsqueda",
+    "people": "Personas",
+    "calls": "Llamadas",
+    "files": "Archivos",
+    "settings": "Ajustes",
+    "notifications": "Notificaciones",
+    "searchHint": "Buscar en todo",
+    "collapse": "Contraer menú",
+    "logout": "Salir",
+    "statusTitle": "Tu estado",
+    "changeStatus": "Cambiar estado",
+    "unreadCount_one": "{{count}} sin leer",
+    "unreadCount_other": "{{count}} sin leer"
+  },
+  "notifications": {
+    "mention": "Te mencionaron en {{name}}",
+    "dm": "Nuevo mensaje de {{name}}",
+    "thread": "Nueva respuesta en un hilo de {{name}}"
+  },
+  "presence": {
+    "online": "Disponible",
+    "ausente": "Ausente",
+    "ocupado": "Ocupado",
+    "offline": "Desconectado"
+  },
+  "time": {
+    "today": "Hoy",
+    "yesterday": "Ayer",
+    "now": "ahora",
+    "minutesAgo_one": "hace {{count}} min",
+    "minutesAgo_other": "hace {{count}} min",
+    "hoursAgo_one": "hace {{count}} h",
+    "hoursAgo_other": "hace {{count}} h",
+    "daysAgo_one": "hace {{count}} día",
+    "daysAgo_other": "hace {{count}} días"
+  },
+  "auth": {
+    "loginTitle": "Entrar en Elo",
+    "loginSubtitle": "Tus conversaciones, hilos y archivos en un solo lugar.",
+    "registerTitle": "Crear cuenta",
+    "registerSubtitle": "Monta el espacio de trabajo de tu equipo en dos minutos.",
+    "email": "Correo",
+    "password": "Contraseña",
+    "name": "Nombre",
+    "workspace": "Espacio de trabajo",
+    "remember": "Mantener la sesión",
+    "forgot": "Olvidé la contraseña",
+    "loginCta": "Entrar",
+    "registerCta": "Crear cuenta",
+    "loggingIn": "Entrando…",
+    "noAccount": "¿Aún no tienes cuenta?",
+    "hasAccount": "¿Ya tienes cuenta?",
+    "loginLink": "Entrar",
+    "loginError": "Escribe el correo y la contraseña.",
+    "loginSuccess": "Bienvenida de vuelta",
+    "registerSuccess": "Cuenta creada",
+    "demoTitle": "Cuenta de demostración",
+    "demoHint": "Autenticación ficticia: cualquier correo y contraseña sirven.",
+    "terms": "Acepto los términos de uso y la política de privacidad."
+  },
+  "validation": {
+    "required": "Campo obligatorio",
+    "email": "Correo inválido",
+    "terms": "Debes aceptar los términos.",
+    "min_one": "Escribe al menos {{count}} carácter",
+    "min_other": "Escribe al menos {{count}} caracteres"
+  },
+  "chat": {
+    "conversations": "Conversaciones",
+    "newConversation": "Nueva conversación",
+    "filterPlaceholder": "Filtrar canales y personas",
+    "channels": "Canales",
+    "directMessages": "Mensajes directos",
+    "markAllRead": "Marcar todo como leído",
+    "draftPrefix": "Borrador:",
+    "noMessages": "Todavía no hay mensajes",
+    "you": "Tú",
+    "messageChannel": "Escribe en #{{name}}",
+    "messagePerson": "Escribe a {{name}}",
+    "lastSeen": "visto {{when}}",
+    "voiceCall": "Llamada de voz",
+    "videoCall": "Videollamada",
+    "emptyTitle": "Conversación vacía",
+    "emptyDesc": "Escribe el primer mensaje y empieza por aquí.",
+    "newMessages": "Mensajes nuevos",
+    "jumpToLatest": "Ir al final",
+    "typingOne": "{{name}} está escribiendo…",
+    "typingMany": "{{names}} están escribiendo…",
+    "react": "Reaccionar",
+    "replyInThread": "Responder en un hilo",
+    "pin": "Fijar",
+    "unpin": "Quitar fijado",
+    "pinned": "fijado",
+    "pinnedDone": "Mensaje fijado",
+    "unpinned": "Mensaje sin fijar",
+    "edited": "editado",
+    "messageEdited": "Mensaje editado",
+    "messageRemoved": "Mensaje eliminado",
+    "replyCount_one": "{{count}} respuesta",
+    "replyCount_other": "{{count}} respuestas",
+    "thread": "Hilo",
+    "threadGone": "Este hilo ya no existe.",
+    "noReplies": "Nadie ha respondido todavía.",
+    "replyPlaceholder": "Responder en el hilo",
+    "send": "Enviar",
+    "attach": "Adjuntar",
+    "emoji": "Emoji",
+    "attachmentAdded": "Adjunto listo para enviar",
+    "enterHint": "Enter envía · Shift + Enter salta de línea"
+  },
+  "detail": {
+    "title": "Detalles",
+    "about": "Acerca de",
+    "members": "Miembros",
+    "files": "Archivos",
+    "topic": "Tema",
+    "description": "Descripción",
+    "notifications": "Notificaciones",
+    "muted": "Silenciado",
+    "active": "Activas",
+    "privateChannel": "Canal privado",
+    "publicChannel": "Canal abierto",
+    "role": "Rol",
+    "timezone": "Zona horaria",
+    "presenceLabel": "Presencia",
+    "lastSeen": "visto {{when}}",
+    "pinned": "Mensajes fijados",
+    "seeDirectory": "Ver el directorio del equipo",
+    "noFiles": "Todavía no se ha compartido nada aquí.",
+    "allFiles": "Ver todos los archivos",
+    "lastMessage": "Último mensaje {{when}}"
+  },
+  "threads": {
+    "title": "Hilos",
+    "subtitle": "Las conversaciones que siguieron fuera del canal principal.",
+    "following": "Que sigo",
+    "all": "Todos",
+    "followingBadge": "Siguiendo",
+    "newReplies_one": "{{count}} respuesta nueva",
+    "newReplies_other": "{{count}} respuestas nuevas",
+    "emptyTitle": "Ningún hilo",
+    "emptyDesc": "Responde dentro de un mensaje para abrir el primer hilo.",
+    "hint_one": "También tienes {{count}} conversación directa abierta.",
+    "hint_other": "También tienes {{count}} conversaciones directas abiertas."
+  },
+  "search": {
+    "title": "Búsqueda",
+    "subtitle": "Busca por un fragmento y filtra por canal, persona y periodo.",
+    "clear": "Limpiar filtros",
+    "placeholder": "¿Qué estás buscando?",
+    "channel": "Canal",
+    "person": "Persona",
+    "period": "Periodo",
+    "periods": {
+      "todos": "Cualquier fecha",
+      "hoje": "Hoy",
+      "semana": "Últimos 7 días",
+      "mes": "Últimos 30 días"
+    },
+    "startTitle": "Empieza a escribir",
+    "startDesc": "La búsqueda cubre canales, mensajes directos y respuestas en hilos.",
+    "emptyTitle": "Nada encontrado",
+    "emptyDesc": "Prueba otro término o afloja los filtros.",
+    "count_one": "{{count}} mensaje encontrado",
+    "count_other": "{{count}} mensajes encontrados"
+  },
+  "files": {
+    "title": "Archivos",
+    "subtitle": "Todo lo compartido en los canales y en las conversaciones directas.",
+    "searchPlaceholder": "Buscar por nombre de archivo",
+    "kind": "Tipo",
+    "kinds": {
+      "image": "Imagen",
+      "file": "Archivo",
+      "link": "Enlace"
+    },
+    "channel": "Canal",
+    "emptyTitle": "Ningún archivo",
+    "emptyDesc": "Adjunta algo en una conversación para verlo aquí.",
+    "sharedBy": "Compartido por",
+    "size": "Tamaño",
+    "context": "Mensaje de origen",
+    "download": "Descargar",
+    "openLink": "Abrir enlace"
+  },
+  "calls": {
+    "title": "Llamadas",
+    "subtitle": "Historial de voz y vídeo, con duración y participantes.",
+    "startVoice": "Llamada de voz",
+    "startVideo": "Videollamada",
+    "inCall": "En llamada",
+    "kinds": {
+      "voz": "Voz",
+      "video": "Vídeo"
+    },
+    "you": "Tú",
+    "mute": "Silenciar el micrófono",
+    "unmute": "Activar el micrófono",
+    "cameraOn": "Encender la cámara",
+    "cameraOff": "Apagar la cámara",
+    "hangUp": "Colgar",
+    "ended": "Llamada finalizada · {{duration}}",
+    "missed": "Perdida",
+    "emptyTitle": "Ninguna llamada",
+    "emptyDesc": "Inicia una llamada desde el encabezado de cualquier conversación."
+  },
+  "people": {
+    "title": "Personas",
+    "subtitle": "Quién está en el espacio de trabajo, con presencia y zona horaria.",
+    "searchPlaceholder": "Buscar por nombre, usuario o rol",
+    "presence": "Presencia",
+    "status": "Estado",
+    "localTime": "Hora local",
+    "timezone": "Zona",
+    "lastSeen": "Visto por última vez",
+    "sendMessage": "Enviar mensaje",
+    "noDm": "Todavía no hay una conversación directa con esta persona.",
+    "emptyTitle": "Nadie encontrado",
+    "emptyDesc": "Ajusta la búsqueda o el filtro de presencia."
+  },
+  "settings": {
+    "title": "Ajustes",
+    "subtitle": "Perfil, presencia, notificaciones y apariencia.",
+    "tabs": {
+      "profile": "Perfil",
+      "presence": "Presencia",
+      "notifications": "Notificaciones",
+      "appearance": "Apariencia"
+    },
+    "profile": {
+      "title": "Datos del perfil",
+      "name": "Nombre",
+      "handle": "Usuario",
+      "email": "Correo",
+      "role": "Rol",
+      "saved": "Perfil actualizado"
+    },
+    "presence": {
+      "title": "Cómo apareces",
+      "desc": "El estado es visible para todo el equipo y puedes cambiarlo cuando quieras.",
+      "saved": "Estado cambiado a {{status}}",
+      "hints": {
+        "online": "Disponible para conversar ahora.",
+        "ausente": "Lejos del ordenador por un rato.",
+        "ocupado": "Concentrada; solo emergencias.",
+        "offline": "Apareces como desconectada."
+      }
+    },
+    "alerts": {
+      "title": "Cuándo avisar",
+      "mentions": "Menciones",
+      "mentionsDesc": "Avisar cuando alguien escriba @tu nombre.",
+      "dm": "Mensajes directos",
+      "dmDesc": "Avisar en cada conversación uno a uno.",
+      "threads": "Hilos que sigo",
+      "threadsDesc": "Avisar cuando llegue una respuesta nueva.",
+      "digest": "Resumen diario",
+      "digestDesc": "Un correo a las 9h con lo que te perdiste."
+    },
+    "channels": {
+      "title": "Notificaciones por canal",
+      "desc": "Apaga lo que no necesitas seguir en tiempo real."
+    },
+    "appearance": {
+      "title": "Apariencia",
+      "dark": "Tema oscuro",
+      "darkDesc": "Aplica el tema oscuro en toda la interfaz.",
+      "language": "Idioma"
+    },
+    "saved": "Preferencia guardada"
+  },
+  "home": {
+    "hero": {
+      "badge": "Nuevo: hilos con resumen automático",
+      "title": "La conversación de tu equipo, ordenada por tema",
+      "subtitle": "Un canal por asunto, hilos para lo que necesita profundidad y llamadas en un clic. Sin treinta grupos paralelos y sin perder decisiones a mitad del día.",
+      "cta": "Empezar gratis",
+      "secondary": "Ver las funciones",
+      "note": "Sin tarjeta de crédito. Hasta 10 personas en el plan gratuito."
+    },
+    "stats": {
+      "teams": "Equipos usándolo",
+      "rating": "Nota media",
+      "uptime": "Disponibilidad",
+      "latency": "Latencia media"
+    },
+    "features": {
+      "eyebrow": "Por qué Elo",
+      "title": "Hecho para equipos que escriben más de lo que se reúnen",
+      "subtitle": "Cada función existe para reducir reuniones, no para sumar notificaciones."
+    },
+    "integrations": {
+      "eyebrow": "Integraciones",
+      "title": "Conectado a lo que el equipo ya usa",
+      "subtitle": "Repositorio, agenda, archivos y paneles llegan al canal correcto, en el formato correcto."
+    },
+    "plans": {
+      "eyebrow": "Planes",
+      "title": "Empieza gratis y crece cuando tenga sentido",
+      "all": "Comparar los planes"
+    },
+    "cta": {
+      "title": "Trae a tu equipo a Elo",
+      "subtitle": "Crea el espacio, invita al equipo e importa el historial en una tarde.",
+      "button": "Crear mi cuenta"
+    }
+  },
+  "features": {
+    "eyebrow": "Funciones",
+    "title": "Todo lo que necesita una conversación de trabajo",
+    "subtitle": "Canales, hilos, llamadas, búsqueda y seguridad — pensados para meses de historial.",
+    "extrasTitle": "Y lo que sostiene el día a día",
+    "ctaTitle": "¿Quieres verlo funcionando?",
+    "ctaSubtitle": "Entra con la cuenta de demostración y navega por un equipo ficticio con conversaciones reales.",
+    "ctaButton": "Ver los planes",
+    "items": {
+      "channels": {
+        "title": "Canales",
+        "desc": "Un canal por asunto, abierto o privado, con tema y descripción visibles para todos.",
+        "long": "Cada tema tiene un canal con un enunciado corto y una descripción de lo que entra ahí. Los canales abiertos los puede leer cualquiera del espacio; los privados guardan la coordinación que todavía no debe circular.",
+        "bullets": {
+          "b1": "Tema y descripción que explican qué entra en el canal",
+          "b2": "Canales privados para coordinación sensible",
+          "b3": "Silenciar un canal sin salir de él"
+        }
+      },
+      "threads": {
+        "title": "Hilos",
+        "desc": "Las respuestas quedan atadas al mensaje que las originó, así el canal sigue legible.",
+        "long": "Cuando un asunto necesita profundidad, la discusión baja a un hilo y el canal principal sigue limpio. Quien participó continúa al tanto; quien no, se ahorra cincuenta notificaciones.",
+        "bullets": {
+          "b1": "Cuenta de respuestas en el propio mensaje raíz",
+          "b2": "Lista de los hilos que sigues, con lo nuevo",
+          "b3": "Borrador separado por hilo"
+        }
+      },
+      "calls": {
+        "title": "Llamadas",
+        "desc": "Voz y vídeo desde cualquier canal o conversación, con historial y duración.",
+        "long": "La llamada empieza dentro de la conversación: mismo contexto, mismas personas. Al terminar, entra en el historial con duración y participantes, para reconstruir lo que se decidió.",
+        "bullets": {
+          "b1": "Empieza desde el encabezado de la conversación, sin enlace externo",
+          "b2": "Historial con duración, participantes y perdidas",
+          "b3": "Micrófono y cámara controlados en la misma pantalla"
+        }
+      },
+      "search": {
+        "title": "Búsqueda",
+        "desc": "Encuentra por el fragmento de la frase y filtra por canal, persona y periodo.",
+        "long": "La búsqueda cubre canales, mensajes directos y respuestas en hilos. El resultado muestra el fragmento con el término resaltado y lleva directo al mensaje, destacado en la línea de tiempo.",
+        "bullets": {
+          "b1": "Filtro por canal, persona y periodo",
+          "b2": "Fragmento con el término resaltado en el resultado",
+          "b3": "Un clic lleva al mensaje en su contexto"
+        }
+      },
+      "security": {
+        "title": "Seguridad",
+        "desc": "Inicio de sesión único, sesiones auditables y control de quién entra en cada canal privado.",
+        "long": "Cada espacio decide quién entra y cuánto tiempo se guarda el historial. SAML y SCIM en los planes de pago, con registro de acceso exportable para el equipo de seguridad.",
+        "bullets": {
+          "b1": "SAML y SCIM para dar de alta y de baja cuentas",
+          "b2": "Registro de acceso exportable",
+          "b3": "Retención configurable por espacio"
+        }
+      },
+      "integrations": {
+        "title": "Integraciones",
+        "desc": "Repositorio, agenda y paneles publicando en el canal correcto, sin ruido.",
+        "long": "Conecta las herramientas que el equipo ya usa y elige exactamente qué se convierte en mensaje.",
+        "bullets": {
+          "b1": "Eventos filtrados por canal",
+          "b2": "Vista previa enriquecida de enlaces",
+          "b3": "Webhooks de entrada y de salida"
+        }
+      }
+    },
+    "extras": {
+      "mentions": {
+        "title": "Menciones que respetan el foco",
+        "desc": "@persona avisa; @canal solo llega a quien no lo ha silenciado."
+      },
+      "focus": {
+        "title": "Modo concentración",
+        "desc": "Silencia canales enteros sin perder su historial."
+      },
+      "files": {
+        "title": "Archivos reunidos",
+        "desc": "Cada adjunto aparece en una cuadrícula con filtro por tipo y canal."
+      },
+      "timezones": {
+        "title": "La zona de cada persona",
+        "desc": "La hora local aparece en el perfil antes de que escribas a las 23h."
+      },
+      "reactions": {
+        "title": "Reacciones",
+        "desc": "Un emoji resuelve lo que serían diez mensajes de 'ok'."
+      },
+      "guests": {
+        "title": "Invitados",
+        "desc": "Un cliente o socio entra solo en los canales acordados."
+      }
+    }
+  },
+  "pricing": {
+    "eyebrow": "Precios",
+    "title": "Un precio por persona, sin sorpresas a mitad de año",
+    "subtitle": "Empieza en el plan gratuito y cambia cuando el equipo crezca. Cobro mensual, cancelas cuando quieras.",
+    "popular": "El más elegido",
+    "free": "Gratis",
+    "perUser": "/ persona al mes",
+    "cta": "Empezar ahora",
+    "note": "Precios por persona activa, cobrados cada mes. Los equipos sin ánimo de lucro tienen 50% de descuento.",
+    "compareTitle": "Comparación rápida",
+    "feature": "Función",
+    "compare": {
+      "history": "Historial de mensajes",
+      "calls": "Personas por llamada",
+      "guests": "Invitados",
+      "sso": "Inicio de sesión único",
+      "support": "Soporte"
+    },
+    "compareValues": {
+      "history": { "time": "90 días", "pro": "Ilimitado", "empresa": "Ilimitado" },
+      "calls": { "time": "2 personas", "pro": "25 personas", "empresa": "80 personas" },
+      "guests": { "time": "—", "pro": "10", "empresa": "Ilimitado" },
+      "sso": { "time": "—", "pro": "SAML", "empresa": "SAML + SCIM" },
+      "support": { "time": "Comunidad", "pro": "Correo", "empresa": "Gestor dedicado" }
+    },
+    "faqTitle": "Preguntas frecuentes",
+    "faqHelp": "¿Te quedó alguna duda? Escríbenos desde la página de contacto.",
+    "plans": {
+      "time": {
+        "name": "Equipo",
+        "desc": "Para equipos pequeños que están empezando.",
+        "features": {
+          "channels": "Canales abiertos y privados sin límite",
+          "history": "90 días de historial con búsqueda",
+          "calls": "Llamadas de voz entre dos personas",
+          "apps": "Aplicaciones para web, escritorio y móvil"
+        }
+      },
+      "pro": {
+        "name": "Pro",
+        "desc": "Para equipos que viven dentro de la herramienta.",
+        "features": {
+          "everything": "Todo lo del plan Equipo",
+          "history": "Historial completo, sin cortes",
+          "guests": "Hasta 10 invitados externos",
+          "calls": "Videollamadas con hasta 25 personas",
+          "sso": "Inicio de sesión único por SAML"
+        }
+      },
+      "empresa": {
+        "name": "Empresa",
+        "desc": "Para cuando la seguridad y la auditoría entran en la conversación.",
+        "features": {
+          "everything": "Todo lo del plan Pro",
+          "retention": "Política de retención configurable",
+          "audit": "Registro de auditoría exportable",
+          "support": "Gestor de cuenta dedicado",
+          "sla": "SLA del 99,9% por contrato"
+        }
+      }
+    }
+  },
+  "faq": {
+    "q1": {
+      "q": "¿Se puede importar el historial de la herramienta actual?",
+      "a": "Sí. Aceptamos exportaciones de las herramientas más comunes y mantenemos autor, fecha y canal de origen. Importar un espacio con un año de conversación suele llevar una tarde."
+    },
+    "q2": {
+      "q": "¿El plan gratuito caduca?",
+      "a": "No. Cubre hasta diez personas y no tiene fecha de fin. La diferencia con Pro es el historial completo, las llamadas en grupo y los invitados externos."
+    },
+    "q3": {
+      "q": "¿Cómo funciona el cobro cuando alguien deja el equipo?",
+      "a": "El cobro es por persona activa al mes. Al desactivar una cuenta, el importe proporcional vuelve como crédito en la factura siguiente."
+    },
+    "q4": {
+      "q": "¿Leen los mensajes?",
+      "a": "No. El contenido se usa solo para entregar el mensaje y alimentar la búsqueda del propio espacio. No entrenamos modelos con conversaciones de clientes ni vendemos datos a anunciantes."
+    },
+    "q5": {
+      "q": "¿Hay aplicación para móvil?",
+      "a": "Sí, para Android e iOS, con avisos por mención y por mensaje directo. La versión web es instalable y funciona sin conexión para leer el historial reciente."
+    }
+  },
+  "about": {
+    "eyebrow": "Nosotros",
+    "title": "Una herramienta de conversación hecha por gente cansada de reuniones",
+    "p1": "Elo empezó como un proyecto interno de un equipo de diez personas repartido en cuatro zonas horarias. Necesitábamos un lugar donde la decisión quedara escrita y se pudiera encontrar seis meses después — y ninguna herramienta de la época lo resolvía sin volverse un tablón de anuncios.",
+    "p2": "Hoy somos 34 personas, remotas por elección, atendiendo a equipos que trabajan igual: más texto, menos calendario. Seguimos usando el producto todo el día, lo que resuelve buena parte de las discusiones sobre prioridad.",
+    "privacyTitle": "Donde no negociamos",
+    "privacyIntro": "Una conversación de trabajo lleva contratos, sueldos y clientes dentro. La tratamos como lo que es.",
+    "privacy": {
+      "encryption": {
+        "title": "Cifrado en tránsito y en reposo",
+        "desc": "TLS 1.3 entre cliente y servidor, y volúmenes cifrados en disco."
+      },
+      "noAds": {
+        "title": "Sin anuncios, sin reventa",
+        "desc": "Nuestro único modelo de ingresos es la suscripción que pagas."
+      },
+      "export": {
+        "title": "Tus datos salen cuando quieras",
+        "desc": "Exportación completa en JSON, adjuntos incluidos, sin hablar con soporte."
+      },
+      "hosting": {
+        "title": "Tú eliges la región",
+        "desc": "Los espacios pueden estar en São Paulo, Fráncfort o Virginia."
+      }
+    },
+    "teamTitle": "A quién encuentras por aquí",
+    "teamSubtitle": "Seis de las treinta y cuatro personas — las mismas que aparecen en la demostración del producto.",
+    "timelineTitle": "Cómo llegamos hasta aquí",
+    "timeline": {
+      "t1": {
+        "year": "2019",
+        "text": "Proyecto interno de un equipo remoto que ya no encontraba sus propias decisiones."
+      },
+      "t2": {
+        "year": "2021",
+        "text": "Primera versión pública, con canales, hilos y búsqueda por fragmento."
+      },
+      "t3": {
+        "year": "2023",
+        "text": "Llamadas de voz y vídeo nativas, sin depender de enlaces externos."
+      },
+      "t4": {
+        "year": "2026",
+        "text": "Doce mil equipos, treinta y cuatro personas en el producto y la misma pregunta: ¿esto es una reunión o un mensaje?"
+      }
+    },
+    "ctaTitle": "¿Quieres hablar con nosotros?",
+    "ctaSubtitle": "Respondemos en un día hábil — normalmente esa misma tarde.",
+    "cta": "Hablar con el equipo"
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos",
+    "subtitle": "Ventas, soporte técnico o una propuesta de alianza — el mensaje llega a quien lo resuelve.",
+    "channels": {
+      "email": "Correo",
+      "phone": "Teléfono",
+      "address": "Dirección",
+      "hours": "Horario"
+    },
+    "hoursValue": "Lun a vie, 9h a 19h (BRT)",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo de trabajo",
+      "company": "Empresa",
+      "teamSize": "Tamaño del equipo",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos el contexto: cuántas personas, qué usan hoy y qué necesita cambiar.",
+      "select": "Selecciona",
+      "terms": "Acepto recibir una respuesta por correo.",
+      "submit": "Enviar mensaje"
+    },
+    "subjects": {
+      "vendas": "Hablar con ventas",
+      "suporte": "Soporte técnico",
+      "parceria": "Propuesta de alianza",
+      "imprensa": "Prensa"
+    },
+    "success": "Mensaje enviado. Respondemos en un día hábil.",
+    "statusTitle": "Estado de la plataforma",
+    "statusDesc": "Sigue incidentes y mantenimientos programados en tiempo real.",
+    "statusOk": "Todos los sistemas operativos"
+  },
+  "landing": {
+    "footer": {
+      "tagline": "Mensajería de equipo con canales, hilos y llamadas. Menos reuniones, más decisiones escritas.",
+      "rights": "Todos los derechos reservados.",
+      "docs": "Documentación",
+      "help": "Ayuda",
+      "privacy": "Privacidad"
+    }
+  },
+  "cookie": {
+    "title": "Usamos cookies",
+    "desc": "Usamos cookies para mejorar tu experiencia.",
+    "policy": "Política de privacidad",
+    "accept": "Aceptar",
+    "decline": "Rechazar"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "desc": "La página que buscas no existe o fue movida.",
+    "back": "Volver a las conversaciones",
+    "home": "Ir al inicio"
+  }
+}
